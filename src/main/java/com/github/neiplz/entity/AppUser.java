@@ -49,8 +49,8 @@ public class AppUser implements Serializable{
 	@Size(min = 0, max = 1)
 	private String delFlag = "0";
 
-	private Float weight;
-	private Float height;
+	private Float weight = 0.0f;
+	private Float height = 0.0f;
 
 	public AppUser() {
 		super();
